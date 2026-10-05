@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us – Book Haven Bookstore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="Images/BookHavenLogo.png" alt="Book Haven Logo" class="site-logo">
+    </div>
+  
+    <h1>Book Haven Bookstore</h1>
+  
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About Us</a>
+      <a href="custom.html">Our Collection</a>
+      <a id="view-cart">View Cart</a>
+    </nav>
+  </header>
+
+<main>
+
+  <section>
+    <h2>Business Description</h2>
+    <p>Book Haven Bookstore celebrates the written word and supports lifelong learning.</p>
+  </section>
+
+  <section>
+    <h2>Hours of Operation</h2>
+    <p>Mon–Fri: 9am–7pm<br>Sat: 10am–6pm<br>Sun: Closed</p>
+  </section>
+
+  <section class="contact-grid">
+    <div class="contact-box">555-123-4567</div>
+    <div class="contact-box">Live Message</div>
+    <div class="contact-box">1 Library Rd<br>Chattanooga TN, 37421</div>
+    <div class="contact-box">info@bookhaven.com</div>
+    <div class="contact-box">Quote</div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button id="contact-submit">Submit</button>
+    </form>
+  </section>
+
+  <section class="perks">
+    <h2>Shopping Perks</h2>
+    <p>Free shipping, loyalty rewards, and more.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-links">
+    <div>Newsletter Signup</div>
+    <div>Social Links</div>
+    <div>Additional Links</div>
+  </div>
+
+  <form id="subscribe-form">
+    <input type="email" id="subscribe-email" placeholder="Email address" required>
+    <button id="subscribe-btn">Subscribe</button>
+  </form>
+
+  <p>&copy; 2026 Book Haven Bookstore</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
